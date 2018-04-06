@@ -1,22 +1,4 @@
 # Code Quality and Technical Debt
-## Deliverable M5 - Team 2
-
-# TOC
-- [Code Quality Review](#code-quality-review)
-  * [Tools Used](#tools-used)
-    + [Understand](#understand)
-    + [CodeScene](#codescene)
-      - [Hotspots](#hotspots)
-      - [Temporal Coupling](#temporal-coupling)
-      - [Complexity Trends](#complexity-trends)
-    + [SonarQube](#sonarqube)
-    + [Cpplint](#cpplint)
-  * [Cumulative Summary of Results](#cumulative-summary-of-results)
-- [Technical Debt](#technical-debt)
-  * [Analysis of Potential Debt](#analysis-of-potential-debt)
-    + [Lack of Inline Documentation - Comments](#lack-of-inline-documentation---comments)
-    + [Refactoring Candidates](#refactoring-candidates)
-  * [Design Tradeoffs Identified](#design-tradeoffs-identified)
 
 # Code Quality Review
 
