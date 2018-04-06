@@ -33,9 +33,7 @@ We considered the incoming business goal analysis as well as a comprehensive rev
 QAS are used to quantify the qualitative nature of the attribute to be able to measure success. They require;
 
 1. Source
-
 2. Stimulus
-
 3. Environment
 4. Artifact
 5. Response
