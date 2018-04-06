@@ -79,36 +79,37 @@ As this system is a real time or near real time system, attributes like performa
 #### Usability
 
 * When the system is in running mode, localization is delivered as a discrete message to the subscribing system in a format that results in a successful interpretation by the client device. Technical Complexity - medium : Business Priority - medium 
+
 * When the system has ceased operation, the resulting map created by the algorithm must be stored as an image. The map can be veiwed on any jpeg viewed. Technical Complexity - medium : Business Priority - high
 
-  #### Interoperability
+#### Interoperability
 
-  * When completing a build of the project, the build should be self-contained and deployable on multiple environments. Compatible with advertised ROS distributions at a minimum. Technical Complexity - high :  Business Priority - high
+* When completing a build of the project, the build should be self-contained and deployable on multiple environments. Compatible with advertised ROS distributions at a minimum. Technical Complexity - high :  Business Priority - high
 
-  #### Modifiability
+#### Modifiability
 
-  * Whenever the code base is being modified, by a development team, there will be versioning on the modifications. Each code change will have a separate version associated with it. Technical Complexity - low : Business Priority - low
+* Whenever the code base is being modified, by a development team, there will be versioning on the modifications. Each code change will have a separate version associated with it. Technical Complexity - low : Business Priority - low
 
-  #### Performance
+#### Performance
 
-  * When the system is in running mode, the deployable position must be within 5mm of the algorithms calculated position. Technical Complexity - high : Business Priority - high
-    * When an client of the system requests a localization or trajectory approximation, based on sensor data, the system will provide a valid response, with an estimate of error in the approximation, in less than 500 ms. Technical Complexity - high : Business Priority - medium
+* When the system is in running mode, the deployable position must be within 5mm of the algorithms calculated position. Technical Complexity - high : Business Priority - high
+  * When an client of the system requests a localization or trajectory approximation, based on sensor data, the system will provide a valid response, with an estimate of error in the approximation, in less than 500 ms. Technical Complexity - high : Business Priority - medium
 
-  #### Configurability
+#### Configurability
 
-  * When designing an environment to deploy the project to, the sensor chosen must be modular, replaceable and accessible to designers to allow for flexibility in design. Compatible with all COTS as well as custom laser range sensors. Technical Complexity - low :  Business Priority - high 
+* When designing an environment to deploy the project to, the sensor chosen must be modular, replaceable and accessible to designers to allow for flexibility in design. Compatible with all COTS as well as custom laser range sensors. Technical Complexity - low :  Business Priority - high 
 
 #### Maintainability
 
-* When a developer submits a change to the code, the project shall be tested to ensure the change meets a set of testing parameters. The change passes all automated testing parameters. Technical Complexity - medium : Business Priority - high
+When a developer submits a change to the code, the project shall be tested to ensure the change meets a set of testing parameters. The change passes all automated testing parameters. Technical Complexity - medium : Business Priority - high
 
-  ## Utility Tree
+## Utility Tree
 
-  ![resources](https://docs.google.com/drawings/d/e/2PACX-1vQUFx-Zpw_iB_SLsRlsA6kfiS4o-y2c2wRL8s5F-fqpn_3FF5oq4sWYcNh9fJjvVkemkM7C6sOuhzW7/pub?w=960&h=720)
+![resources](https://docs.google.com/drawings/d/e/2PACX-1vQUFx-Zpw_iB_SLsRlsA6kfiS4o-y2c2wRL8s5F-fqpn_3FF5oq4sWYcNh9fJjvVkemkM7C6sOuhzW7/pub?w=960&h=720)
 
-  ## Summary
+## Summary
 
-  This deliverable presented some key Architecturally Significant Requirements or ASRs for the Cartographer Open Source project. These were categorized and then presented as scenarios in a Utility Tree with both technical and business feasibility estimated for each.
+This deliverable presented some key Architecturally Significant Requirements or ASRs for the Cartographer Open Source project. These were categorized and then presented as scenarios in a Utility Tree with both technical and business feasibility estimated for each.
 
 
 
