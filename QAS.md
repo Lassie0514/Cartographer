@@ -21,18 +21,14 @@ We considered the incoming business goal analysis as well as a comprehensive rev
 6. Changes to the software can be tested on the fly to allow public involvement not to interfere with code integrity
 7. Mapping data should be saved in a reasonable manner
 8. Algorithm must be able to maintain the relative position of the sensor accurately
-9. Code must be easy to understand in order to be modifiable by other developers  
-   10. It should openly support multiple sensors and platforms  
-   11. Algorithm must be able to optimize both generated and visualized floor plans in real-time  
-   12. Hardware expectations : 64bit CPU, ideally a core i7, to avoid libeigen alignment problems  
-   13. Algorithms implemented must achieve real-time loop closure  
-   14. 2D and 3D mapping algorithms should both be efficient
+9. Code must be easy to understand in order to be modifiable by other developers 10. It should openly support multiple sensors and platforms 11. Algorithm must be able to optimize both generated and visualized floor plans in real-time 12. Hardware expectations : 64bit CPU, ideally a core i7, to avoid libeigen alignment problems 13. Algorithms implemented must achieve real-time loop closure 14. 2D and 3D mapping algorithms should both be efficient
 
-   ## Quality Attribute Scenarios
+## Quality Attribute Scenarios
 
-   QAS are used to quantify the qualitative nature of the attribute to be able to measure success. They require;
+QAS are used to quantify the qualitative nature of the attribute to be able to measure success. They require;
 
 1. Source
+
 2. Stimulus
 3. Environment
 4. Artifact
