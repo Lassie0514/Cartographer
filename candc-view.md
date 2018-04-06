@@ -1,26 +1,5 @@
 # Component and Connector View
 
-# Table of Contents
-
-* [C&C View](#c-and-c-view)
-  * [Voxel Filter Pipeline](#voxel-filter-pipeline)
-  * [Submap Generator Pipeline](#submap-generator-pipeline)
-  * [Pose Extrapolator Pipeline](#pose-extrapolator-pipeline)
-* [Element Catalog](#element-catalog)
-  * [Laser Range Data](#laser-range-data)
-  * [Voxel Filter](#voxel-filter)
-  * [Ceres Scan Matching](#ceres-scan-matching)
-  * [Submaps](#submaps)
-  * [Robotic Odometry](#robotic-odometry)
-  * [Pose Extrapolator](#pose-extrapolator)
-* [Context Diagram](#context-diagram)
-* [Interface Documentation](#interface-documentation)
-  * [Voxel Grid Interface](#voxel-grid-interface)
-  * [Adaptive Voxel Filter Interface](#adaptive-voxel-filter-interface)
-* [Variability Guide](#variability-guide)
-* [Rationale](#rationale)
-* [Related Views](#related-views)
-
 # C and C View
 
 ## Voxel Filter Pipeline
