@@ -32,23 +32,23 @@ We considered the incoming business goal analysis as well as a comprehensive rev
 
    QAS are used to quantify the qualitative nature of the attribute to be able to measure success. They require;
 
-10. Source 
-11. Stimulus
-12. Environment 
-13. Artifact
-14. Response
-15. Response Measure
+1. Source
+2. Stimulus
+3. Environment
+4. Artifact
+5. Response
+6. Response Measure
 
-    #### Performance
+#### Performance
 
-    | Scenario name | Process Position Data |
-    | :--- | :--- |
-    | Business Goals | Effective algorithm for calculating position, pose and trajectory of a mobile robot |
-    | Quality Attributes | Performance |
-    | Stimulus | Deploy the device in operating status |
-    | Stimulus Source | User needing localization and hardware request |
-    | Response | Process data from sensor and sending back mapping response |
-    | Response Measure | Mean accuracy &lt;= 5mm |
+| Scenario name | Process Position Data |
+| :--- | :--- |
+| Business Goals | Effective algorithm for calculating position, pose and trajectory of a mobile robot |
+| Quality Attributes | Performance |
+| Stimulus | Deploy the device in operating status |
+| Stimulus Source | User needing localization and hardware request |
+| Response | Process data from sensor and sending back mapping response |
+| Response Measure | Mean accuracy &lt;= 5mm |
 
 #### Interoperability
 
