@@ -1,5 +1,4 @@
-# **Module View - Deliverable M2 - Team 2**
-
+# Module View 
 This document presents Team 2's recent work examining the architecture of the open source Cartographer project. We provide a module view presentation as envisioned by the Carnegie Mellon Software Engineering Institute.
 
 # Table Of Contents
