@@ -78,7 +78,7 @@ As this system is a real time or near real time system, attributes like performa
 
 #### Usability
 
-* When the system is in running mode, localization is delivered as a discrete message to the subscribing system in a format that results in a successful interpretation by the client device. Technical Complexity - medium : Business Priority - medium 
+* When the system is in running mode, localization is delivered as a discrete message to the subscribing system in a format that results in a successful interpretation by the client device. Technical Complexity - medium : Business Priority - medium
 
 * When the system has ceased operation, the resulting map created by the algorithm must be stored as an image. The map can be veiwed on any jpeg viewed. Technical Complexity - medium : Business Priority - high
 
@@ -107,9 +107,7 @@ When a developer submits a change to the code, the project shall be tested to en
 
 ![resources](https://docs.google.com/drawings/d/e/2PACX-1vQUFx-Zpw_iB_SLsRlsA6kfiS4o-y2c2wRL8s5F-fqpn_3FF5oq4sWYcNh9fJjvVkemkM7C6sOuhzW7/pub?w=960&h=720)
 
-## Summary
 
-This deliverable presented some key Architecturally Significant Requirements or ASRs for the Cartographer Open Source project. These were categorized and then presented as scenarios in a Utility Tree with both technical and business feasibility estimated for each.
 
 
 
