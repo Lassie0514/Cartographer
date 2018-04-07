@@ -72,7 +72,7 @@ Temporal coupling means that two (or more) modules change together over time. Co
 
 The following figure shows the temporal coupling for Cartographer:
 
-![image alt text](image_4.png)
+![![image alt text](image_4.png)](/assets/image_4.png)
 
 The *pose_graph_2d.cc* and *pose_graph_3d.cc* have the highest sum of couplings - 656 and 654. If looking at the temporal coupling by commits, these two modules have very high degree of coupling: 82%, and the number of average revisions even reaches to 150. If looking at the temporal coupling across commits, the degree of coupling between these two modules is 83% and the number of average revisions is 117.
 
@@ -82,15 +82,15 @@ This tool helped us zero in on potential areas for technical debt as it tends to
 
 Complexity trends are used to get more information around hotspots. A complexity trend is calculated by fetching each historic version of a hotspot and calculating the code complexity of those historic versions. 
 
-![image alt text](image_5.png)
+![![image alt text](image_5.png)](/assets/image_5.png)
 
-![image alt text](image_6.png)
+![![image alt text](image_6.png)](/assets/image_6.png)
 
 The figures above show the complexity trends of *pose_graph_2d* and *pose_graph_3d* respectively, starting in mid 2016. It paints a worrisome picture since the complexity has started to grow rapidly since April 2017. 
 
-![image alt text](image_7.png)
+![![image alt text](image_7.png)](/assets/image_7.png)
 
-![image alt text](image_8.png)
+![![image alt text](image_8.png)](/assets/image_8.png)
 
 As evident by the Complexity/Lines of Code ratio shown in figures above, the ratio is always over 2.0 for both modules even though there are some modifications somewhere between April to November in 2017. This ratio indicates that the code in the hotspots - *pose_graph_2d.cc* and *pose_graph_3d.cc* - may be overly challenging to understand, which negatively impacts modifiability, a key QA for this project.
 
@@ -100,7 +100,7 @@ SonarQube is an enterprise solution to code quality analysis. SonarQube offers i
 
 lot more complex than other tools to get up and running.
 
-![image alt text](image_9.png)
+![![image alt text](image_9.png)](/assets/image_9.png)
 
 The server for SonarQube is a Java based system made to allow web distribution of results. The server is a robust platform which offers security, code quality report tracking, and multiple projects. It is reasonably easy to configure the server once its PATH variables are added. The server also supports a variety of plugins to offer greater versatility. Plugins can be added through drag and drop and then a restart of the server, making install relatively simple. Finally as the server is in Java it works on Windows, Linux, and Mac.
 
@@ -112,11 +112,11 @@ In the end SonarQube proved to be a powerful tool with huge upfront cost. In a w
 
 It is worth noting that SonarQube was very effective at checking python code of which there is around 200 lines of in our project. While not key to our projects overall quality a small analysis of the python report is done below. 
 
-![image alt text](image_10.png)
+![![image alt text](image_10.png)](/assets/image_10.png)
 
 From above we can see that there were no bugs or vulnerabilities where found with the built in SonarQube quality profile, other profiles can be added as plugins as described above. As we did not run any batch testing our coverage is 0%. First taking a look at code smells we can see there are 8 smells present. 
 
-![image alt text](image_11.png)
+![![image alt text](image_11.png)](/assets/image_11.png)
 
 Those 8 smells are rated by Severity, Personnel Assignment, and time to complete. A number of other metrics to organize the smells are also available on the left. This provides a effective way for teams to look code smells. The Debt rating of ‘1h’ acts as a tracker of how much time would be needed to completely rectify the code to SonarQube standards. Finally Duplicated lines shows what sections are repeats and could be changed to functions. 
 
@@ -126,7 +126,7 @@ Those 8 smells are rated by Severity, Personnel Assignment, and time to complete
 
 We ran this tool on an Anaconda environment with python version 2.7 installed. By using prewritten Windows batch file we recursively ran this python tool on each of the cpp and header files and stored the results for each module. Results are presented in a textual format, as seen in the screenshot below;
 
-![image alt text](image_12.png)
+![![image alt text](image_12.png)](/assets/image_12.png)
 
 After finished analyzing code file, it will return total error number found in this code file along with the full paths, including which lines are they and suggestions of how should they be fixed. It also gives issue type, for example it will add [build/include_what_you_use] when it found missing #include guard, and confidence scores ranging from one to five. Where five means that the tool is very certain of the problem and one refers to issues that could be a legitimate construct.
 
@@ -156,7 +156,7 @@ One key area of potential technical debt, was inline documentation. Comments wer
 
 Our analysis with various static code quality tools found that ratios were both inconsistent and very low. File size was quite low for many files and any acceptably high comment to code ratios were often attributable to the licensing banner. It would be better to use a tool that took into consideration if the comments were at the beginning of the file and also if they were nearly identical to other file headers, therefore conveying little specific meaning about the individual files. An example file (*ceres_pose.cc*) of a typical commenting gap, with the licence header issue illustrated as well.
 
-![image alt text](image_13.png)
+![![image alt text](image_13.png)](/assets/image_13.png)
 
 [https://files.slack.com/files-pri/T8AA0Q6FQ-F9TB8TGKA/image.png](https://files.slack.com/files-pri/T8AA0Q6FQ-F9TB8TGKA/image.png)
 
@@ -173,7 +173,7 @@ Clearly, if comments are vital, including none in a file is not meeting the expe
 
 ### Refactoring Candidates
 
-![image alt text](image_14.png)
+![![image alt text](image_14.png)](/assets/image_14.png)
 
 The figure above shows a list of prioritized refactoring targets for Cartographer. It is clearly that *pose_graph_2d.cc* and *pose_graph_3d.cc* are two refactoring targets with the top priority. As mentioned above, it is not hard to see why it is important to refactor these two modules:
 
@@ -193,7 +193,7 @@ The first tradeoff identified by our team involved protocol buffer. [Protocol bu
 
 Another major tradeoff identified involves [Google Remote Procedure Call (gRPC)](https://grpc.io/). This allows interoperability of clients running on various mobile platforms (as is often the case with mobile robots). This abstraction lets multiple agents work together on a mapping objective.  
 
-![image alt text](image_15.png)
+![![image alt text](image_15.png)](/assets/image_15.png)
 
 [https://grpc.io/](https://grpc.io/)
 
