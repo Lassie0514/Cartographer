@@ -20,7 +20,7 @@ CodeScene was used extensively as well as the CLI based cpplint. The results fro
 
 Understand is a static software analysis tool that was used in the earlier phases of the project, while not used as a comprehensive tool to evaluate code quality, it does have one interesting quality tool called Metrics Treemap a form of heat map, in these maps a gradient of color is applied across a segmentation map. The characteristic being examined is most expressed when the color is dark and the segment size can also be selected; by file, by class, etc.
 
-![image alt text](image_0.png)
+![![image alt text](image_0.png)](https://raw.githubusercontent.com/SENG480-18/project-team2/master/image_0.png?token=AKsDQAFJ5dQ0snFQj4TV-lYIOoGpsiDvks5a0WXxwA%3D%3D)
 
 [https://files.slack.com/files-pri/T8AA0Q6FQ-F9TVB5EFM/image.png](https://files.slack.com/files-pri/T8AA0Q6FQ-F9TVB5EFM/image.png)
 
@@ -29,8 +29,8 @@ The maps shown in this section show the entire library build, with Cartographer 
 One area where it did show issue was in commenting. When we analyzed the ratio of comment to code and looked at Cartographer and ROS combined, we found quantitative support from what we had noted in the codebase qualitatively; a pronounced lack of comments. Commenting was widely variable and often insufficient to understand even the purpose of the class, let alone the inner workings. 
 
 However, the metric used in Understand can be misleading as much of the comments showing below as well commented below (green) are simply license header comment blocks. See the [Technical Debt](#heading=h.2ndqokaumuy) section for more discussion.
-
-![image alt text](image_1.png)
+![
+![image alt text](image_1.png)](/assets/image_1-min.png)
 
 [https://files.slack.com/files-pri/T8AA0Q6FQ-F9TGDQYFK/image.png](https://files.slack.com/files-pri/T8AA0Q6FQ-F9TGDQYFK/image.png)
 
