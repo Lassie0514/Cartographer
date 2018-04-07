@@ -56,7 +56,7 @@ A hotspot is complicated code that a developer has to work with often. In CodeSc
 
 The following image shows the hotspot analysis for Cartographer:
 
-![image alt text](image_3.png)
+![![image alt text](image_3.png)](/assets/image_3.png)
 
 Each large, blue circle represents a package in Cartographer. The packages in the figure follow the directory structure of Cartographer. Inside each package, source code files can be found. The biggest circles in darkest red are the top hotspots in the codebase. In other words, *pose_graph_2d* and *pose_graph_3d* are the two modules to which most of development activities tend to be located.  
 
