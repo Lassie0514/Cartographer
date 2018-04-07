@@ -38,7 +38,7 @@ Understand also had another tool called CodeCheck that performs static analysis.
 
 The results showed lots of uncommented variables, many defined by unused identifiers and also lots of magic numbers (numeral literals with little reference as to the reason for their selection). This lack of commenting negatively impacts the maintainability QAS described in previous milestones.
 
-![image alt text](image_2.png)
+![![image alt text](image_2.png)](/assets/image_2.png)
 
 [https://files.slack.com/files-pri/T8AA0Q6FQ-F9UMYEY5B/image.png](https://files.slack.com/files-pri/T8AA0Q6FQ-F9UMYEY5B/image.png)
 
